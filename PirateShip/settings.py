@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'api',
     'corsheaders',
     'rest_framework',
+    'django_extensions',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -132,7 +133,6 @@ AUTH_PASSWORD_VALIDATORS = [
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(hours=12),
 }
-
 
 
 # Internationalization
